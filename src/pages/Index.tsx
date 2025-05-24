@@ -127,7 +127,7 @@ const Index = () => {
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {services.map((service, index) => (
-              <Card key={index} className="group hover:shadow-lg transition-all duration-300 border-sage-200 hover:border-sage-300">
+              <Card key={index} className="group hover:shadow-lg transition-all duration-300 border-sage-200 hover:border-sage-300 bg-white">
                 <div className="aspect-video rounded-t-lg overflow-hidden">
                   <img 
                     src={service.image} 
@@ -200,11 +200,11 @@ const Index = () => {
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {testimonials.map((testimonial, index) => (
-              <Card key={index} className="p-6 border-sage-200">
+              <Card key={index} className="p-6 border-sage-200 bg-white hover:shadow-lg transition-shadow">
                 <CardContent className="p-0">
                   <div className="flex items-center mb-4">
                     {[...Array(testimonial.rating)].map((_, i) => (
-                      <Star key={i} className="h-5 w-5 text-honey-500 fill-current" />
+                      <Star key={i} className="h-5 w-5 text-honey-400 fill-current" />
                     ))}
                   </div>
                   <p className="text-forest-600 mb-4 italic leading-relaxed">

@@ -185,7 +185,7 @@ const Produits = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {products.map((product) => (
-              <Card key={product.id} className="group hover:shadow-lg transition-all duration-300 border-sage-200">
+              <Card key={product.id} className="group hover:shadow-lg transition-all duration-300 border-sage-200 bg-white">
                 <div className="aspect-square rounded-t-lg overflow-hidden relative">
                   <img 
                     src={product.image} 
@@ -212,7 +212,7 @@ const Produits = () => {
                   
                   <div className="flex items-center mb-3">
                     <div className="flex items-center">
-                      <Star className="h-4 w-4 text-honey-500 fill-current" />
+                      <Star className="h-4 w-4 text-honey-400 fill-current" />
                       <span className="ml-1 text-sm font-medium text-forest-700">{product.rating}</span>
                     </div>
                     <span className="mx-2 text-sage-400">•</span>
