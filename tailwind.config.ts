@@ -56,18 +56,18 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
-				// Couleurs personnalisées pour le thème apiculture
+				// Couleurs personnalisées pour le thème apiculture - jaune plus doux
 				honey: {
-					50: '#fefdf8',
-					100: '#fef7e6',
-					200: '#fdecc4',
-					300: '#fbdc97',
-					400: '#f8c869',
-					500: '#f5b342',
-					600: '#e99d2a',
-					700: '#c17f1e',
-					800: '#9a641c',
-					900: '#7c521a',
+					50: '#fefef9',
+					100: '#fef9ed',
+					200: '#fdf2d6',
+					300: '#fce7b4',
+					400: '#fad788',
+					500: '#f7c55c',
+					600: '#f4b03f',
+					700: '#e09a2a',
+					800: '#b87c21',
+					900: '#95651e',
 				},
 				sage: {
 					50: '#f6f7f5',
