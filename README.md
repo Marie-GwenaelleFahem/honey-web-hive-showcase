@@ -1,73 +1,83 @@
-# Welcome to your Lovable project
+# 🐝 Honebee - Apiculture & Produits de la Ruche
 
-## Project info
+Site web vitrine pour une apiculture artisanale, présentant les produits de la ruche et les services d'apiculture.
 
-**URL**: https://lovable.dev/projects/edc375f3-b658-4f50-97d7-d2a7cff39498
+## 🌟 Fonctionnalités
 
-## How can I edit this code?
+- Design moderne et responsive
+- Navigation fluide avec React Router
+- Animations et transitions élégantes
+- Optimisé pour le SEO
+- Compatible avec tous les navigateurs modernes
 
-There are several ways of editing your application.
+## 🛠️ Technologies utilisées
 
-**Use Lovable**
+- [React](https://reactjs.org/) - Bibliothèque UI
+- [TypeScript](https://www.typescriptlang.org/) - Typage statique
+- [Vite](https://vitejs.dev/) - Build tool
+- [Tailwind CSS](https://tailwindcss.com/) - Framework CSS
+- [React Router](https://reactrouter.com/) - Routage
+- [Shadcn/ui](https://ui.shadcn.com/) - Composants UI
+- [GitHub Pages](https://pages.github.com/) - Hébergement
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/edc375f3-b658-4f50-97d7-d2a7cff39498) and start prompting.
+## 🚀 Démarrage
 
-Changes made via Lovable will be committed automatically to this repo.
+### Prérequis
 
-**Use your preferred IDE**
+- Node.js (version 20 ou supérieure)
+- npm ou yarn
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+### Installation
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+1. Cloner le repository
+```bash
+git clone https://github.com/marie-gwenaellefahem/honey-web-hive-showcase.git
+cd honey-web-hive-showcase
+```
 
-Follow these steps:
+2. Installer les dépendances
+```bash
+npm install
+```
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+3. Lancer le serveur de développement
+```bash
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+Le site sera accessible à l'adresse [http://localhost:8080](http://localhost:8080)
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+### Build pour la production
 
-**Use GitHub Codespaces**
+```bash
+npm run build
+```
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## 📦 Structure du projet
 
-## What technologies are used for this project?
+```
+honey-web-hive-showcase/
+├── public/              # Fichiers statiques
+│   ├── components/      # Composants React
+│   ├── pages/          # Pages de l'application
+│   ├── styles/         # Styles globaux
+│   └── utils/          # Utilitaires
+├── index.html          # Point d'entrée HTML
+└── vite.config.ts      # Configuration Vite
+```
 
-This project is built with:
+## 🌐 Déploiement
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+Le site est automatiquement déployé sur GitHub Pages à chaque push sur la branche `main`.
 
-## How can I deploy this project?
+## 📝 Licence
 
-Simply open [Lovable](https://lovable.dev/projects/edc375f3-b658-4f50-97d7-d2a7cff39498) and click on Share -> Publish.
+Ce projet est sous licence MIT. Voir le fichier [LICENSE](LICENSE) pour plus de détails.
 
-## Can I connect a custom domain to my Lovable project?
+## 👥 Contribution
 
-Yes, you can!
+Les contributions sont les bienvenues ! N'hésitez pas à ouvrir une issue ou une pull request.
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+## 📞 Contact
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+Pour toute question ou suggestion, n'hésitez pas à nous contacter.
